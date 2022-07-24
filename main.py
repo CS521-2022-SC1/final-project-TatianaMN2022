@@ -1,4 +1,4 @@
-# This is a sample Python script.
+# Home Price Calculator Version 0.01
 # Importing pandas and numpy
 import pandas as pd
 import numpy as np
