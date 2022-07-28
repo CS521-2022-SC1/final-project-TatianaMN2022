@@ -66,6 +66,7 @@ plt.scatter(eSalePrice,df_Y_test)
 plt.plot(df_X_test, eSalePrice, color="black", linewidth=3)
 
 plt.show()
+
 '''
 #UI
 Sq_feet = input("Enter square footage:")
