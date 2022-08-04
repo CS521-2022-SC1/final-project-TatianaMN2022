@@ -7,8 +7,10 @@ The Home Price Calculator was created for the final project in the course MET CS
 
 ## Requirements
 
-SKLearn
 Pandas
+Numpy
+Matplotlib
+SKLearn
 
 ## Installation
 
@@ -37,18 +39,30 @@ PoolArea: Pool area in square feet
 The output you will receive is the estimated price at the time of the sale.
 
 ## Core Model
-The linear model behind the Home Price Calculator is the following:
+The Home Price Calculator is based on the following models:
+
+Versions 0.01 and 0.02 use a model that is based on 
+ Initial linear regression
+ Code source: Jaques Grobler
+ License: BSD 3 clause
+
+Version 0.03 uses a class with the following methods to perform data analysis and display:
+
 
 ```bash
-_
+ - set_independent_variables
+ - print_independent_variables
+ - do_regression
+ - print_report
 ```
+
 Output variable:
 estimated SalePrice
 
 Y variable to be analyzed:
 SalePrice
 
-X variables of interest, to be analyzed:
+X variables of interest, to be potentially analyzed:
 
 MSSubClass: Identifies the type of dwelling involved in the sale.
 MSZoning: Identifies the general zoning classification of the sale.
